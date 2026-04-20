@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>GIF Example</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+
+  <header>
+    <h1>GIF Image Example</h1>
+  </header>
+
+  <div class="topnav" id="myTopnav">
+    <a href="index.html">Home</a>
+    <a href="gif.html" class="active">GIF</a>
+    <a href="jpg.html">JPG</a>
+    <a href="png.html">PNG</a>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()" aria-label="Open menu">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+
+  <main>
+
+    <img 
+      src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExdmNpbGl1MnJ1M2M3OTBmejI2Z2IwdDJ0dDNoNWFweGIxcDU3cW9yaSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/mf8UbIDew7e8g/giphy.gif"
+      alt="Earth spinning in space"
+    >
+
+    <h2>Description</h2>
+    <p>
+      This image shows the Earth spinning in space.
+    </p>
+
+    <h2>Image File Type Information</h2>
+    <p>
+      GIF files (.gif) can support animation and are often used 
+      for short moving images.
+    </p>
+
+    <h2>Why I Chose This Image</h2>
+    <p>
+      I chose this image because it shows animation clearly,
+      which is a main feature of GIF files.
+    </p>
+
+    <h2>Source</h2>
+    <p>
+      <a href="https://giphy.com/gifs/mf8UbIDew7e8g" target="_blank" rel="noopener noreferrer">
+        Giphy (Earth GIF)
+      </a>
+    </p>
+
+  </main>
+
+  <script>
+    function myFunction() {
+      var x = document.getElementById("myTopnav");
+      if (x.className === "topnav") {
+        x.className += " responsive";
+      } else {
+        x.className = "topnav";
+      }
+    }
+  </script>
+
+</body>
+</html>

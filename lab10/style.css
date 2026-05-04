@@ -1,0 +1,46 @@
+body {
+    font-family: Arial;
+    margin: 0;
+    background-image: url("https://images.unsplash.com/photo-1518770660439-4636190af475");
+    background-size: cover;
+    color: black;
+}
+
+/* Header */
+header {
+    background-color: navy;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+/* Navigation */
+nav {
+    margin-top: 10px;
+}
+
+nav a {
+    color: white;
+    margin: 10px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Main content box */
+main {
+    background-color: rgba(255, 255, 255, 0.9);
+    margin: 30px auto;
+    padding: 20px;
+    width: 70%;
+    border-radius: 10px;
+}
+
+/* Titles */
+h1, h2 {
+    color: navy;
+    text-align: center;
+}
